@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="gameBoard.render();">
+    <h1>Tic Tac Toe</h1>
+    <button type="button" name="button" onclick="game.newGame();">New Game</button>
+    <div id="board">
+      <span onclick="player.play(0);"></span>
+      <span onclick="player.play(1);"></span>
+      <span onclick="player.play(2);"></span>
+      <span onclick="player.play(3);"></span>
+      <span onclick="player.play(4);"></span>
+      <span onclick="player.play(5);"></span>
+      <span onclick="player.play(6);"></span>
+      <span onclick="player.play(7);"></span>
+      <span onclick="player.play(8);"></span>
+    </div>
+  </body>
+</html>
